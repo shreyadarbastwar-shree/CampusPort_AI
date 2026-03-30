@@ -1,0 +1,167 @@
+/* ===== Body ===== */ 
+ 
+body {margin: 0;     
+     font-family: 'Segoe UI', Arial, sans-serif;     
+     background: url("images/background.png") no-repeat center center fixed;    
+      background-size: cover; 
+} 
+ 
+/* ===== Universal Small Box (For ALL Pages) ===== */ 
+ 
+.container, .dashboard-container {    
+     width: 90%;     max-width: 480px;   
+     /* Small box everywhere */     
+     margin: 80px auto;     
+     padding: 30px;     
+     border-radius: 16px;    
+      background: rgba(255, 255, 255, 0.15);     
+      backdrop-filter: blur(12px);     
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25); 
+} 
+ 
+/* ===== Headings ===== */ 
+ 
+h2 {text-align: center;    
+     margin-bottom: 20px;     
+     color: #222; 
+} 
+ 
+/* ===== Logo ===== */ 
+ 
+.logo { width: 90px;     
+      display: block;     
+      margin: 0 auto 15px; 
+} 
+ 
+/* ===== Inputs ===== */ 
+ 
+input, select, textarea
+ { width: 100%;    
+   padding: 10px;     
+   margin-bottom: 15px;     
+   border-radius: 8px;     
+   border: 1px solid #ccc;     
+   font-size: 14px;     
+   transition: 0.3s; 
+} 
+ 
+input:focus, select:focus, textarea:focus 
+{ border-color: #4a6cf7;     
+    box-shadow: 0 0 8px rgba(74,108,247,0.3);    
+     outline: none; 
+} 
+ 
+/* ===== Buttons ===== */ 
+ 
+button, .card a {
+    width: 100%;     
+    padding: 10px;     
+    border-radius: 8px;     
+    border: none;     
+    background: linear-gradient(135deg, #4a6cf7, #6c63ff);     
+    color: white;     
+    font-size: 14px;    
+     cursor: pointer;     
+     transition: 0.3s; 
+}
+ 
+button:hover, .card a:hover 
+{     
+    transform: translateY(-2px); 
+} 
+ 
+/* ===== Cards ===== */ 
+ 
+.card 
+{     
+    background: rgba(255,255,255,0.9);     
+    padding: 15px;    
+     border-radius: 12px;     
+     text-align: center;     
+     margin-bottom: 15px; 
+} 
+ 
+/* ===== Tables ===== */ 
+ 
+table 
+{     
+    width: 100%;    
+     border-collapse: collapse;     
+     margin-top: 15px;     
+     background: rgba(255,255,255,0.9);     
+     border-radius: 8px;     
+     overflow: hidden; 
+} 
+ 
+table th
+ {     
+    background: #4a6cf7;     
+    color: white;     
+    padding: 8px;     
+    font-size: 13px; 
+}
+ 
+table td
+{     
+    padding: 8px;    
+     border-bottom: 1px solid #ddd;     
+     font-size: 13px; 
+} 
+ 
+/* ===== Links ===== */ 
+ 
+a {     
+    color: #4a6cf7;    
+     text-decoration: none;     
+     font-size: 13px; 
+} 
+ 
+a:hover {
+     text-decoration: underline; 
+} 
+body {  
+     margin: 0;   
+     padding: 0;  
+      font-family: Arial, sans-serif;   
+      background-image: url("images/background.png");  
+       background-size: cover;   
+       background-position: center;  
+        height: 100vh; 
+} 
+ 
+.login-wrapper {  
+     display: flex;   
+     justify-content: center;   
+     align-items: center;  
+     height: 100vh; 
+} 
+ 
+.login-box {  
+     background: rgba(255, 255, 255, 0.95);   
+     padding: 30px;   
+     width: 350px;   
+     border-radius: 10px;   
+     box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+} 
+ 
+.login-box h2 {   
+    text-align: center; 
+} 
+ 
+.login-box input, 
+.login-box select, .login-box button {   
+    width: 100%;   
+    padding: 10px;   
+    margin: 10px 0; 
+} 
+ 
+.login-box button {  
+     background: #5a67ff;   
+     color: white;   
+     border: none;   
+     cursor: pointer; 
+} 
+ 
+ 
+ 
+ 
